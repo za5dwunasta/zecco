@@ -1,0 +1,88 @@
+.slider {
+  margin: auto;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  &__header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 42px;
+    h2 {
+      font: normal normal 300 44px/54px "Gilroy-Light";
+      color: #131505;
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+  }
+  &__recipes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background-color: #fff;
+      border: none;
+    }
+    .forward {
+      transform: rotate(180deg);
+      margin-bottom: 7px;
+    }
+  }
+}
+
+.recipe {
+  display: flex;
+  align-items: flex-end;
+  &__img {
+    margin-right: -10px;
+  }
+  &__box {
+    padding-left: 26px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 180px;
+    height: 90px;
+
+    p {
+      font: normal normal 300 14px/18px "Gilroy-Light";
+      letter-spacing: 0px;
+      color: #1d1d1d;
+      margin-top: 11px;
+      margin-right: 5px;
+      margin-bottom: 0;
+    }
+    &-footer {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      p {
+        font: normal normal 600 16px/26px Raleway;
+        letter-spacing: 0px;
+        color: #4ec6a6;
+      }
+      &-cart {
+        position: absolute;
+        right: 0;
+        bottom: -6px;
+        background-color: #ff947b;
+        border-radius: 100% 0 0 0;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-bottom: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}

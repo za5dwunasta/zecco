@@ -1,7 +1,7 @@
 .menu {
   display: flex;
   align-items: center;
-
+  z-index: 1000;
   &__item {
     padding: 0 2rem;
   }

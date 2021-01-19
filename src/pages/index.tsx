@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Shop from "../components/Shop"
+import Slider from "../components/Slider"
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       {/* <SEO title="Home page!" /> */}
       <Header />
       <Shop />
+      <Slider />
     </Layout>
   )
 }
