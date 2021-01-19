@@ -2,11 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <Layout>
-      <SEO title="Hpe page!" />
+      {/* <SEO title="Home page!" /> */}
       This is my first gatsby web page!
     </Layout>
   )
 }
+
+export default Home

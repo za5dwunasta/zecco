@@ -1,0 +1,29 @@
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="30.97" viewBox="0 0 100 30.97">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.101" y1="0.243" x2="0.871" y2="0.846" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#edad0d"/>
+      <stop offset="1" stop-color="#ff6b6b"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_109" data-name="Group 109" transform="translate(-28 -2654)">
+    <text id="Organic_Farm" data-name="Organic Farm" transform="translate(64 2682.5)" fill="#1d1d1d" font-size="7" font-family="KronaOne-Regular, Krona One"><tspan x="0" y="0">Organic Farm</tspan></text>
+    <g id="Group_107" data-name="Group 107" transform="translate(28 2654)">
+      <g id="Group_89" data-name="Group 89">
+        <path id="Path_53" data-name="Path 53" d="M15.485,0A15.485,15.485,0,1,1,0,15.485,15.485,15.485,0,0,1,15.485,0Z" fill="#4ec6a6"/>
+        <g id="Group_14" data-name="Group 14" transform="translate(5.888 3.082)">
+          <path id="Path_6" data-name="Path 6" d="M3986.965,1201.283c-4.858,0-9.541,9.168-9.646,15.517s5.872,10.019,9.646,9.925,9.505-2.143,10.158-9.6a17.953,17.953,0,0,0-5.638-13.979A7.057,7.057,0,0,0,3986.965,1201.283Z" transform="translate(-3977.317 -1201.283)" fill="#fff"/>
+          <g id="Group_11" data-name="Group 11" transform="translate(5.452 12.185)">
+            <ellipse id="Ellipse_14" data-name="Ellipse 14" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(-0.341 0.233)" fill="url(#linear-gradient)"/>
+            <path id="Path_7" data-name="Path 7" d="M1.223,0A1.4,1.4,0,0,1,2.446,1.529,1.4,1.4,0,0,1,1.223,3.057,1.4,1.4,0,0,1,0,1.529,1.4,1.4,0,0,1,1.223,0Z" transform="matrix(0.891, -0.454, 0.454, 0.891, 4.909, 2.62)" fill="#f5f4f4"/>
+          </g>
+        </g>
+        <g id="Group_87" data-name="Group 87" transform="translate(35.768 1.309)">
+          <text id="ZEcco" transform="translate(0.232 14.191)" fill="#1d1d1d" font-size="14" font-family="KronaOne-Regular, Krona One"><tspan x="0" y="0">ZECCO</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
