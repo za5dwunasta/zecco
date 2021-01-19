@@ -63,12 +63,6 @@ const Menu: React.FC = () => {
                   }
                 />
               )}
-              {/* <Button
-                text={item.label}
-                dropdownList={
-                  item.childItems.nodes ? item.childItems.nodes : []
-                }
-              /> */}
             </div>
           )
       )}

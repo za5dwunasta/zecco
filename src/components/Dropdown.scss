@@ -18,13 +18,6 @@
   }
 }
 
-.login__button {
-  font: normal normal 300 10px/18px "Interstate Reg";
-  color: #1d1d1d;
-  text-transform: uppercase;
-  border: 1px solid #1d1d1d;
-}
-
 .arrow-up {
   border-right: 2px solid;
   border-bottom: 2px solid;
@@ -45,4 +38,23 @@
   margin-left: 10px;
   margin-top: 6px;
   color: #1d1d1d;
+}
+
+.login__button {
+  font: normal normal 300 10px/22px "Interstate Reg";
+  color: #1d1d1d;
+  text-transform: uppercase;
+  border: 1px solid #1d1d1d;
+}
+
+.landing__button {
+  font: normal normal normal 16px/26px "Interstate Lt";
+  letter-spacing: 0px;
+  color: #1d1d1d;
+  text-transform: uppercase;
+  background-color: #a2de96;
+  &:hover {
+    color: #1d1d1d;
+    background-color: #88c97b;
+  }
 }

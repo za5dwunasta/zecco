@@ -6,11 +6,7 @@ type ButtonProps = {
   additionalStyle?: string
 }
 
-const Button: React.FC<ButtonProps> = ({
-  text,
-
-  additionalStyle,
-}) => {
+const Button: React.FC<ButtonProps> = ({ text, additionalStyle }) => {
   return (
     <>
       <button className={`button ${additionalStyle ? additionalStyle : ""}`}>
