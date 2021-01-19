@@ -18,6 +18,7 @@ const Shop: React.FC = () => {
         trigger: [animate.current],
         start: "top center",
         end: "top 100px",
+        scrub: true,
         id: "scrub",
       },
     })
