@@ -5,7 +5,7 @@ import "./Slider.scss"
 import Cart from "../../content/assets/supermarket.svg"
 import Arrow from "../../content/assets/arrow.svg"
 
-const Slider = () => {
+const Slider: React.FC = () => {
   const menu = useStaticQuery(graphql`
     query {
       avocado: file(relativePath: { eq: "avocado.jpg" }) {

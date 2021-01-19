@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import "./Shop.scss"
 
-const Shop = () => {
+const Shop: React.FC = () => {
   const shopimage = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "vegetables.png" }) {

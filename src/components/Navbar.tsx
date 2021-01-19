@@ -4,7 +4,7 @@ import "./Navbar.scss"
 import Menu from "./Menu"
 import LogIn from "./LogIn"
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <div className="navbar">
       <Logo />
